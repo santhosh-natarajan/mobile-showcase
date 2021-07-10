@@ -1,0 +1,55 @@
+1. What is script
+
+    => Automatically run whens the web page loads.
+    => They don't need any special preparation or compilation to run.
+    => Initial name is live script.
+    => Independent language with own specification called ECMAscript.
+    => Today JS, not only the client-side language is server side language too.
+    => Chrome an opera - V8
+    => Firefox - SpiderMonkey
+    => IE - Chakra
+    => Safari - javascriptcore, Nitro, SquirrelFish.
+    => see runtimejs.js 
+
+2. Why we need javascript
+
+    => Show the dynamic information to the webpage
+    => Interact with system
+
+3. What is DOM
+
+    => Document Object Model
+    => Browser creates a Document Object Model of the page.
+    => see dom-example.gif
+
+4. Why we need MVC architecutre
+    => Model - Data 
+    => Controller - Business logic
+    => View - UI
+
+5. What architecutre used before MVC
+
+    => Input - Process - Output
+
+6. Create HTML
+
+    => Meta
+    => Viewport
+    => script
+
+7. Connect JS with HTML
+
+8. Define MVC in JS
+
+9. Create Model
+
+10. Create list View
+
+11. Dynamic title
+
+12. Create form View
+
+
+
+
+
