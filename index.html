@@ -21,8 +21,60 @@
   </head>
   <body>
     <h1 class="bg-primary">Mobile showcase app works!!</h1>
-    <ul id="mobile-list" class="list-group"></ul>
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <ul id="mobile-list" class="list-group"></ul>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img
+              class="card-img-top"
+              alt="mobile image placeholder"
+              id="mobile-image"
+            />
+            <div class="card-body">
+              <h5 id="mobile-model" class="card-title">Card title</h5>
+              <!-- <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p> -->
+            </div>
+            <ul class="list-group list-group-flush">
+              <li id="mobile-brand" class="list-group-item">An item</li>
+              <li id="mobile-price" class="list-group-item">A second item</li>
+            </ul>
+            <div class="card-body">
+              <table class="table table-responsive table-striped">
+                <tr>
+                  <td><strong>Dispaly</strong></td>
+                  <td id="mobile-display"></td>
+                </tr>
+                <tr>
+                  <td><strong>Processor</strong></td>
+                  <td id="mobile-processor"></td>
+                </tr>
+                <tr>
+                  <td><strong>Internal Memory</strong></td>
+                  <td id="mobile-memory"></td>
+                </tr>
+                <tr>
+                  <td><strong>RAM</strong></td>
+                  <td id="mobile-ram"></td>
+                </tr>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
     <div id="mobile-detail"></div>
     <script src="./js/app.js"></script>
+    <script language="JavaScript">
+      window.onclose = confirmExit;
+      function confirmExit() {
+        return "You have attempted to leave this page. Are you sure?";
+      }
+    </script>
   </body>
 </html>

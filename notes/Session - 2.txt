@@ -1,0 +1,48 @@
+1. Bootstrap grid system
+
+2. Two column layout
+
+3. Javascript event listener - Click
+
+    => Innerhtml = print the html tag data
+    => textcontent = print the text data
+
+4. Detail view 
+
+5. Bootstrap card view
+
+6. Accessing object data
+    => Bracket notation
+        => If not sure your property name you can use bracket notation
+        => If you have space between object properties you can sue bracket notation.
+    => Dot notation
+        => If sure your property name you can use bracket notation
+
+7. CSS override
+
+8. HTML anotamy
+    => Element - Tag name
+    => Attributes - Define name or functionality for element. Change the DOM behaviour
+    => Events - If you want any data form element or Attributes you can use events.
+
+9. Set attributes from Javascript.  
+
+10. Javascript event listener. - Hover
+    => What is event listener
+    => Why is importatant
+    => Where it is use
+    => Realtime usecase
+        => https://www.amazon.in/b?ie=UTF8&node=20963483031
+        => The Information Technology Act, 2000
+
+11. Javascript API
+    => Built in 
+        => Geolocation
+    
+    => Thrid partities
+        => Google maps
+        => Maps Embed API (https://developers.google.com/maps/documentation/embed/get-started)
+
+
+
+
